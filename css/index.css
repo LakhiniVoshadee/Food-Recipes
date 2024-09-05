@@ -1,0 +1,127 @@
+body {
+  background-size: cover;
+  background-color: #ffffff;
+  padding-inline-start: 3cm;
+  padding-inline-end: 3cm;
+}
+
+.background {
+  background: #1c494c;
+  text-align: center;
+  padding: 13.5px 0;
+  color: #ffffff;
+  display: block;
+  margin-top: 0px;
+}
+
+.wrap {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.background a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background p {
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 10px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.site_header {
+  background: #ffffff;
+  position: relative;
+}
+
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.nav_menu .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_menu ul {
+  clear: both;
+  line-height: 1px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+ul {
+  box-sizing: border-box;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+/* ============================================ Home Page ======================================= */
+
+#post_header {
+  background-color: #8db4b8;
+  height: 200px;
+  padding: 1%;
+  text-align: center;
+}
+
+#entry_title {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: lighter;
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+#post_header_info {
+  font-size: var(--wp--preset--font-size--tiny);
+  line-height: var(--wp--custom--line-height--small);
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 8px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.entry_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.block_btns_layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.element_btns_style {
+  color: #1c494c;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #1c494c;
+  text-decoration: none;
+  border: 1px solid currentColor;
+  padding: 12px 19px;
+  display: inline-flex;
+  min-height: 4px;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
