@@ -124,4 +124,118 @@ li {
   align-items: center;
   gap: 10px;
   font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.block_about {
+  display: block;
+  min-height: auto;
+}
+
+.block_about_content {
+  padding: 2px;
+  width: auto;
+  background-position: 50% 32px;
+  text-align: center;
+}
+
+.block_heading {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 500;
+  /* line-height: 5px; */
+}
+
+#block_hello {
+  font-size: 25px;
+}
+
+#block_p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.block_btn {
+  padding-top: 45px;
+  background: rgba(0, 0, 0, 0);
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.line_break {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  box-sizing: content-box;
+  overflow: visible;
+}
+
+#popular_recipies {
+  text-align: center;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.listing_title {
+  flex-basis: 0%;
+  flex-grow: 1;
+  max-width: var(--wp--custom--layout--content);
+}
+
+.post_listing {
+  /* column-gap: 8px;
+  row-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(var(--cwp-columns, 1), 1fr);
+   */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Space between items */
+  justify-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.post_summery {
+  overflow: hidden;
+}
+.post_summery_content {
+  padding: 12px 0;
+}
+.post_summery_title {
+  font-size: var(--wp--preset--font-size--large);
+}
+
+.post-summary .post-summary__content > * {
+  margin: 0;
+}
+
+/* =========================================== About Page ==================================== */
+
+.about_heading {
+  padding-top: 90px;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.about_content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
 }

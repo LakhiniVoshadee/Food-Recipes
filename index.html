@@ -27,7 +27,7 @@
               <li class="menu_item"><a href="#home">Home</a></li>
               <li class="menu_item"><a href="#about">About</a></li>
               <li class="menu_item"><a href="#recipies">Recipies</a></li>
-              <li class="menu_item"><a href="#footer">Contact Us</a></li>
+              <li class="menu_item"><a href="#contact">Contact Us</a></li>
             </ul>
           </div>
         </nav>
@@ -42,7 +42,7 @@
 
     <!-- ========================================================================== Home Page================================================================================================ -->
     <main>
-      <section id="#home">
+      <section id="home">
         <div id="post_header">
           <h1 id="entry_title">6 Healthy Superfood Smoothies</h1>
           <h3 id="post_header_info">
@@ -57,7 +57,9 @@
         <br />
 
         <div class="block_btns_layouts">
-          <a class="element_btns_style" href="#recipies">JUMP TO RECIPIE</a>
+          <a id="recipies" class="element_btns_style" href=""
+            >JUMP TO RECIPIE</a
+          >
           <a class="element_btns_style" href="">RATE RECIPIE</a>
         </div>
         <br />
@@ -74,74 +76,102 @@
 
         <div>
           <aside>
-            <img
-              src="/assets/images/fresh & healthy (2).png"
-              alt="Smoothie logo"
-              style="width: 300px; height: 300px; margin-left: 20px"
-            />
-            <h1>
-              <b>HELLO AND WELCOME TO <br />DELISH SMOOTHIES</b>
-            </h1>
-            <p>
-              I’m Lisa and I love healthy food with <br />fresh, simple and
-              seasonal ingredients. <br />I’m a bestselling cookbook author,
-              food<br />
-              blogger, meal prep fanatic, YouTuber<br />
-              and massive wanderluster (getting food <br />inspiration from
-              around the world!)
-            </p>
-          </aside>
-        </div>
-        <br />
+            <div class="block_about">
+              <!-- <img
+                src="/assets/images/fresh & healthy (2).png"
+                alt="Smoothie logo"
+                style="
+                  width: 300px;
+                  height: 300px;
+                  align-items: center;
+                  padding-left: 200px;
+                "
+              /> -->
+              <div class="block_about_content">
+                <div class="block_heading">
+                  <h1 id="block_hello">
+                    HELLO AND WELCOME TO <br />DELISH SMOOTHIES
+                  </h1>
 
-        <div>
-          <a href="recipies">More About Smoothies</a>
-        </div>
-        <br />
+                  <p id="block_p">
+                    I’m Lisa and I love healthy food with <br />fresh, simple
+                    and seasonal ingredients. <br />I’m a bestselling cookbook
+                    author, food<br />
+                    blogger, meal prep fanatic, YouTuber<br />
+                    and massive wanderluster (getting food <br />inspiration
+                    from around the world!)
+                  </p>
+                </div>
 
-        <div>
-          <aside>
-            <h1><b>---------------- Popular Recipes ----------------</b></h1>
-            <nav>
-              <div>
-                <a href="/pages/popular1.html" target="_blank"
-                  ><img
-                    src="/assets/images/pexels-taryn-elliott-4099237.jpg"
-                    alt="taryn-elliott"
-                    style="width: 250px; height: 250px; margin-right: 50px"
-                /></a>
-
-                <a href="/pages/popular2.html" target="_blank"
-                  ><img
-                    src="/assets/images/pexels-nicola-barts-7937002.jpg"
-                    alt="nicola-barts"
-                    style="width: 250px; height: 250px; max-right: 50px"
-                /></a>
+                <div class="block_btn">
+                  <a href="recipies">MORE ABOUT SMOOTHIES</a>
+                </div>
               </div>
-              <br />
+            </div>
+            <hr class="line_break" />
 
-              <a href="/pages/popular3.html" target="_blank"
-                ><img
-                  src="/assets/images/pexels-janetrangdoan-1564585.jpg"
-                  alt="janetrangaon"
-                  style="width: 250px; height: 250px; margin-left: 50px"
-              /></a>
+            <section class="popular_section">
+              <header>
+                <div class="listing_title">
+                  <h1 id="popular_recipies">Popular Recipes</h1>
+                </div>
+              </header>
+              <div class="post_listing">
+                <article class="post_summery">
+                  <div class="post_summery_image">
+                    <a href="/pages/popular1.html" target="_blank"
+                      ><img
+                        src="/assets/images/pexels-taryn-elliott-4099237.jpg"
+                        alt="taryn-elliott"
+                        style="width: 200px; height: 200px"
+                    /></a>
+                  </div>
+                  <div class="post_summery_content">
+                    <h3 class="post_summery_title">Popular 1</h3>
+                  </div>
+                </article>
+                <article>
+                  <div class="post_summery_image"></div>
+                  <a href="/pages/popular2.html" target="_blank"
+                    ><img
+                      src="/assets/images/pexels-nicola-barts-7937002.jpg"
+                      alt="nicola-barts"
+                      style="width: 200px; height: 200px"
+                  /></a>
 
-              <a href="/pages/popular4.html" target="_blank"
-                ><img
-                  src="/assets/images/pexels-catscoming-674557.jpg"
-                  alt="catscoming"
-                  style="width: 250px; height: 250px; margin-left: 50px"
-              /></a>
-            </nav>
-          </aside>
-        </div>
+                  <div class="post_summery_content">
+                    <h3 class="post_summery_title">Popular 2</h3>
+                  </div>
+                </article>
 
-        <br />
+                <article>
+                  <div class="post_summery_image"></div>
+                  <a href="/pages/popular3.html" target="_blank"
+                    ><img
+                      src="/assets/images/pexels-janetrangdoan-1564585.jpg"
+                      alt="janetrangaon"
+                      style="width: 200px; height: 200px"
+                  /></a>
 
-        <div>
-          <aside>
-            <h1><b>---------------- Recent Recipes ----------------</b></h1>
+                  <div class="post_summery_content">
+                    <h3 class="post_summery_title">Popular 3</h3>
+                  </div>
+                </article>
+                <article>
+                  <div class="post_summery_image"></div>
+                  <a href="/pages/popular4.html" target="_blank"
+                    ><img
+                      src="/assets/images/pexels-catscoming-674557.jpg"
+                      alt="catscoming"
+                      style="width: 200px; height: 200px"
+                  /></a>
+
+                  <div class="post_summery_content">
+                    <h3 class="post_summery_title">Popular 4</h3>
+                  </div>
+                </article>
+              </div>
+            </section>
           </aside>
         </div>
       </section>
@@ -150,105 +180,112 @@
 
       <br />
       <br />
-      <section>
+      <section id="about">
         <div>
-          <h2>HOW TO MAKE A GREAT SMOOTHIE</h2>
+          <div class="about_heading">
+            <h2>HOW TO MAKE A GREAT SMOOTHIE</h2>
+          </div>
 
           <aside>
-            <p>
-              When it comes to making a smoothie, don’t overthink it. The best
-              ones are often made from improvising with what <br />
-              you have on hand.Toss in your slightly browned banana, sprinkle in
-              a handful of spinach that’s about to go bad, or <br />use up that
-              half can of coconut milk. Just a little bit of each can go far in
-              a delicious blended drink.
-            </p>
+            <div class="about_content">
+              <p>
+                When it comes to making a smoothie, don’t overthink it. The best
+                ones are often made from improvising with what <br />
+                you have on hand.Toss in your slightly browned banana, sprinkle
+                in a handful of spinach that’s about to go bad, or <br />use up
+                that half can of coconut milk. Just a little bit of each can go
+                far in a delicious blended drink.
+              </p>
 
-            <p>
-              While there’s no right or wrong way to make a smoothie, here’s a
-              few tips to for making a healthy, well-rounded smoothie.
-            </p>
-
-            <ul>
-              <li>
-                <b>Choose a liquid base.</b> Choose filtered water, coconut
-                water, or any dairy-free milks (such as oat milk, almond
-                <br />milk, hemp milk, or cashew milk) for an extra creamy
-                smoothie. Steer clear of fruit juices most of the time
-                though,<br />
-                as it adds unnecessary sugar.
-              </li>
-              <br />
-              <li>
-                <b>Start with frozen fruits.</b>To keep your smoothie chilled
-                and creamy without getting watered down from ice, it’s best<br />
-                to use frozen fruits, like frozen bananas. You can use
-                store-bought frozen bags, or chop and freeze fresh fruit.
-              </li>
-              <br />
-              <li>
-                <b>Add vegetables for a dose of greens. </b>Fresh leafy greens
-                such as spinach or kale are an easy way to sneak in greens.
-                <br />But you can also add in frozen zucchini or frozen
-                cauliflower to pack in extra nutrients and fiber in these
-                low-sugar<br />
-                smoothies.
-              </li>
-              <br />
-              <li>
-                <b>Consider adding healthy fats.</b>Healthy fats will help
-                absorb all those fat-soluble vitamins and nutrients from your
-                <br />fruits and vegetables! All you need is a dollop of almond
-                butter, a drizzle of coconut oil, a slice of avocado or a<br />
-                variety of seeds such as chia seeds or flax seeds.
-              </li>
-              <br />
-              <li>
-                <b>Superfood & protein add-ins are a plus.</b>Give your smoothie
-                an extra boost with the simplest ingredients. These<br />
-                can range from spices such as cinnamon or turmeric, to
-                superfoods like maca powder or goji berries. For more
-                <br />superfood options, take a peek at my post on how to make
-                the healthiest green smoothie.
-              </li>
-            </ul>
+              <p>
+                While there’s no right or wrong way to make a smoothie, here’s a
+                few tips to for making a healthy, well-rounded smoothie.
+              </p>
+              <ul>
+                <li>
+                  <b>Choose a liquid base.</b> Choose filtered water, coconut
+                  water, or any dairy-free milks (such as oat milk, almond
+                  <br />milk, hemp milk, or cashew milk) for an extra creamy
+                  smoothie. Steer clear of fruit juices most of the time
+                  though,<br />
+                  as it adds unnecessary sugar.
+                </li>
+                <br />
+                <li>
+                  <b>Start with frozen fruits.</b>To keep your smoothie chilled
+                  and creamy without getting watered down from ice, it’s best<br />
+                  to use frozen fruits, like frozen bananas. You can use
+                  store-bought frozen bags, or chop and freeze fresh fruit.
+                </li>
+                <br />
+                <li>
+                  <b>Add vegetables for a dose of greens. </b>Fresh leafy greens
+                  such as spinach or kale are an easy way to sneak in greens.
+                  <br />But you can also add in frozen zucchini or frozen
+                  cauliflower to pack in extra nutrients and fiber in these
+                  low-sugar<br />
+                  smoothies.
+                </li>
+                <br />
+                <li>
+                  <b>Consider adding healthy fats.</b>Healthy fats will help
+                  absorb all those fat-soluble vitamins and nutrients from your
+                  <br />fruits and vegetables! All you need is a dollop of
+                  almond butter, a drizzle of coconut oil, a slice of avocado or
+                  a<br />
+                  variety of seeds such as chia seeds or flax seeds.
+                </li>
+                <br />
+                <li>
+                  <b>Superfood & protein add-ins are a plus.</b>Give your
+                  smoothie an extra boost with the simplest ingredients.
+                  These<br />
+                  can range from spices such as cinnamon or turmeric, to
+                  superfoods like maca powder or goji berries. For more
+                  <br />superfood options, take a peek at my post on how to make
+                  the healthiest green smoothie.
+                </li>
+              </ul>
+            </div>
           </aside>
         </div>
 
         <div>
-          <h2>NUTRITIONS</h2>
+          <div class="about_heading" style="padding-top: 15px">
+            <h2>NUTRITIONS</h2>
+          </div>
 
-          <p>
-            Calories: 129kcal, Carbohydrates: 26g, Protein: 4g, Fat: 1g,
-            Cholesterol: 1mg, Sodium: 17mg, Potassium: 522mg,<br />
-            Fiber: 2g, Sugar: 18g, Vitamin A: 970IU, Vitamin C: 97.7mg, Calcium:
-            61mg, Iron: 0.8mg
-          </p>
+          <div class="about_content">
+            <p>
+              Calories: 129kcal, Carbohydrates: 26g, Protein: 4g, Fat: 1g,
+              Cholesterol: 1mg, Sodium: 17mg, Potassium: 522mg,<br />
+              Fiber: 2g, Sugar: 18g, Vitamin A: 970IU, Vitamin C: 97.7mg,
+              Calcium: 61mg, Iron: 0.8mg
+            </p>
 
-          <p>
-            Nutrition information is automatically calculated, so should only be
-            used as an approximation.
-          </p>
+            <p>
+              Nutrition information is automatically calculated, so should only
+              be used as an approximation.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- ===============================================Recipies Page================================================================= -->
       <br />
 
-      <section id="#recipies">
-        <div>
+      <section id="recipies">
+        <div class="about_heading" style="padding-top: 15px">
           <h1>HEALTHY SMOOTHIES</h1>
         </div>
 
-        <div>
+        <div class="about_content">
           <p>
             6 Fruits and Vegetables Healthy Smoothie Recipes that will give you
             energy all day long. on how to adopt a whole foods diet with the
             best smoothie recipes to help you feel your best!
           </p>
-        </div>
 
-        <div>
           <p>
             Smoothies are the ultimate way to jam pack as much nutrition as
             possible into one drink. These 6 Superfood Smoothies are the perfect
@@ -353,7 +390,7 @@
       <br />
 
       <!-- ===================================================Contact Us================================================= -->
-      <section>
+      <section id="contact">
         <div>
           <h1>CONTACT ME</h1>
         </div>
