@@ -239,3 +239,14 @@ article {
   line-height: 1.5;
   color: #333;
 }
+
+/* ========================================= Recipies Page ==================================== */
+
+/* ======================================= Contact Page ===================================== */
+
+.footer {
+  background-color: #8db4b8;
+  height: 200px;
+  padding: 1%;
+  text-align: center;
+}
