@@ -1,252 +1,247 @@
-body {
-  background-size: cover;
-  background-color: #ffffff;
-  padding-inline-start: 3cm;
-  padding-inline-end: 3cm;
-}
-
-.background {
-  background: #1c494c;
-  text-align: center;
-  padding: 13.5px 0;
-  color: #ffffff;
-  display: block;
-  margin-top: 0px;
-}
-
-.wrap {
-  max-width: fit-content;
-  margin: auto;
-}
-
-.background a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.background p {
-  font-size: 18px;
-  font-weight: 500px;
-  line-height: 10px;
-  letter-spacing: normal;
-  text-transform: uppercase;
-}
-
-.site_header {
-  background: #ffffff;
-  position: relative;
-}
-
-nav {
-  display: block;
-  unicode-bidi: isolate;
-}
-
-.nav_menu .menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav_menu ul {
-  clear: both;
-  line-height: 1px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-
-ul {
-  box-sizing: border-box;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-  unicode-bidi: isolate;
-}
-
-/* ============================================ Home Page ======================================= */
-
-#post_header {
-  background-color: #8db4b8;
-  height: 200px;
-  padding: 1%;
-  text-align: center;
-}
-
-#entry_title {
-  font-family: "Georgia", "Times New Roman", Times, serif;
-  font-size: 45px;
-  font-weight: lighter;
-  color: #000000;
-  text-align: left;
-  padding: 10px;
-  text-align: center;
+* {
+  scroll-behavior: smooth;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
 }
 
-#post_header_info {
-  font-size: var(--wp--preset--font-size--tiny);
-  line-height: var(--wp--custom--line-height--small);
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.heading {
+  color: rgb(58, 58, 58);
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+header {
+  background-color: black;
   position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 38px;
+}
+.logo-heading h1 {
+  font-size: 1.5rem;
+}
+
+.nav {
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
-  column-gap: 8px;
-  font-weight: 500;
-  margin: 0%;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-.entry_avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+header h1 {
+  margin: 0;
+  color: #616161;
+  font-size: 2rem;
+}
+header h1 span {
+  color: white;
+}
+.nav-links {
   display: flex;
+  list-style: none;
+  column-gap: 60px;
 }
 
-.block_btns_layout {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
+.nav-links li {
+  margin-right: 16px;
 }
 
-.element_btns_style {
-  color: #1c494c;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #1c494c;
+.nav-links li a {
+  color: white;
   text-decoration: none;
-  border: 1px solid currentColor;
-  padding: 12px 19px;
-  display: inline-flex;
-  min-height: 4px;
-  align-items: center;
-  gap: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
 }
 
-.block_about {
-  display: block;
-  min-height: auto;
-}
-
-.block_about_content {
-  padding: 2px;
-  width: auto;
-  background-position: 50% 32px;
+.hero {
+  background-color: #8db4b8;
+  padding: 6rem 2rem;
   text-align: center;
 }
 
-.block_heading {
-  font-family: "Georgia", "Times New Roman", Times, serif;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  font-weight: 500;
-  /* line-height: 5px; */
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
-#block_hello {
-  font-size: 25px;
+.hero p {
+  font-size: 0.8rem;
+  color: #3b3b3b;
 }
 
-#block_p {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  padding-top: 20px;
-  line-height: 25px;
-}
-
-.block_btn {
-  padding-top: 45px;
-  background: rgba(0, 0, 0, 0);
-  padding-left: 0;
-  padding-right: 0;
-  text-decoration: underline;
-  font-weight: 700;
-}
-.line_break {
-  display: block;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  unicode-bidi: isolate;
-  box-sizing: content-box;
-  overflow: visible;
-}
-
-#popular_recipies {
-  text-align: center;
-  font-family: "Georgia", "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: lighter;
-}
-
-.listing_title {
-  flex-basis: 0%;
-  flex-grow: 1;
-  max-width: var(--wp--custom--layout--content);
-}
-
-.post_listing {
-  /* column-gap: 8px;
-  row-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(var(--cwp-columns, 1), 1fr);
-   */
+/* ======================================= Home ============================================= */
+.home-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px; /* Space between items */
-  justify-items: center;
-  margin: 20px 0;
+  gap: 1.5rem;
+}
+.home h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  text-align: start;
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  margin-bottom: 1rem;
+}
+.home-text img {
+  margin-left: 7rem;
+}
+
+.recipes-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+}
+
+.recipie-card {
+  border-radius: 0.4rem;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(128, 128, 128, 0.459);
+  transition: ease 0.5s;
+}
+.recipie-card:hover {
+  transition: ease 0.5s;
+  transform: scale(1.2);
+}
+
+.recipie-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipes {
+  padding: 0.5rem;
+}
+
+.recipes h3 {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.recipes p {
+  color: #3b3b3b;
+}
+
+.about-content {
+  background: rgb(230, 230, 230);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content li {
+  color: #3b3b3b;
+}
+
+.about-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  color: #3b3b3b;
+}
+
+.recipie-form {
+  background: rgb(230, 230, 230);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-box {
+  margin-bottom: 2rem;
+}
+
+.form-box label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.form-box input {
+  width: 70%;
+  padding: 0.75rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.form-box textarea {
+  width: 70%;
+  padding: 4rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: ease 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: #3b3b3b;
+  transition: 0.2s all linear;
+  transition: ease 0.5s;
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
-article {
-  display: block;
-  unicode-bidi: isolate;
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.post_summery {
-  overflow: hidden;
-}
-.post_summery_content {
-  padding: 12px 0;
-}
-.post_summery_title {
-  font-size: var(--wp--preset--font-size--large);
+.social-links img {
+  width: 50px;
+  height: 50px;
+  transition: ease 0.5s;
 }
 
-.post-summary .post-summary__content > * {
-  margin: 0;
-}
-
-/* =========================================== About Page ==================================== */
-
-.about_heading {
-  padding-top: 90px;
-  font-family: "Georgia", "Times New Roman", Times, serif;
-  font-weight: lighter;
-  font-size: 20px;
-}
-
-.about_content {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #333;
-}
-
-/* ========================================= Recipies Page ==================================== */
-
-/* ======================================= Contact Page ===================================== */
-
-.footer {
-  background-color: #8db4b8;
-  height: 200px;
-  padding: 1%;
-  text-align: center;
+.social-links img:hover {
+  transition: ease 0.5s;
+  transform: scale(1.2);
 }

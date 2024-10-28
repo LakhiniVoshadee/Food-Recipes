@@ -3,283 +3,230 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Healthy Smoothies</title>
     <meta name="description" content="Healthy Smoothie Recipies" />
-
-    <link rel="stylesheet" href="/css/index.css " />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="background">
-      <div class="wrap">
-        <p>
-          <a href="/pages/signup.html" target="_blank"
-            >Sign up for free daily recipies</a
-          >
-        </p>
-      </div>
-    </div>
-
-    <header class="site_header">
-      <div class="wrap">
-        <nav class="nav_menu" role="navigation">
-          <div class="nav_primary">
-            <ul id="primary_menu" class="menu">
-              <li class="menu_item"><a href="#home">Home</a></li>
-              <li class="menu_item"><a href="#about">About</a></li>
-              <li class="menu_item"><a href="#recipies">Recipies</a></li>
-              <li class="menu_item"><a href="#contact">Contact Us</a></li>
-            </ul>
-          </div>
+    <header>
+      <div class="nav content">
+        <!-- Logo -->
+        <div class="logo-heading">
+          <h1>Healthy Smoothies<span>.</span></h1>
+        </div>
+        <!-- Navbar -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#hero-section" class="links">Home</a></li>
+            <li><a href="#recipies-section" class="links">Recipies</a></li>
+            <li><a href="#about-section" class="links">About </a></li>
+            <li><a href="#contact-section" class="links">Contact</a></li>
+          </ul>
+          <i class="fa fa-bars burger" id="burger" aria-hidden="true"></i>
         </nav>
       </div>
     </header>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <!-- <hr style= "height: 1px; background-color: rgb(0, 0, 0);"> -->
-
-    <!-- ========================================================================== Home Page================================================================================================ -->
     <main>
-      <section id="home">
-        <div id="post_header">
-          <h1 id="entry_title">6 Healthy Superfood Smoothies</h1>
-          <h3 id="post_header_info">
+      <section class="hero">
+        <h1>6 Healthy Superfood Smoothies</h1>
+        <p>Posted by Lakhini Voshadee on Mar 30, 2016, Updated Oct 01, 2023></p>
+      </section>
+
+      <section id="hero-section" class="home container">
+        <div class="home-content">
+          <div class="home-text">
+            <h1>Hello and welcome to delish smoothies</h1>
+            <p>
+              I’m Lisa and I love healthy food with fresh, simple and seasonal
+              ingredients. I’m a bestselling cookbook author, food blogger, meal
+              prep fanatic, YouTuber and massive wanderluster (getting food
+              inspiration from around the world!)
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              placeat quod vero laudantium alias quis ut assumenda itaque
+              repudiandae sit accusamus inventore molestiae non provident
+              perspiciatis expedita error, nesciunt soluta nostrum quia
+              quibusdam quae. Ipsum veritatis odit voluptates incidunt maxime!
+            </p>
+
+            <!-- <img
+              src="/assets/images/pexels-fotios-photos-12049996.jpg"
+              alt=""
+              style="width: 350px; height: 400px"
+            /> -->
+          </div>
+          <div class="home-img">
             <img
-              src="/assets/images/WhatsApp Image 2024-09-05 at 22.03.15.jpeg"
-              alt="dp"
-              class="entry_avatar"
+              src="/assets/images/superfood-3.webp"
+              alt="Smoothie"
+              style="width: 600px; height: 600px"
             />
-            Posted by Lakhini Voshadee on Mar 30, 2016, Updated Oct 01, 2023>
-          </h3>
-        </div>
-        <br />
-
-        <div class="block_btns_layouts">
-          <a id="recipies" class="element_btns_style" href=""
-            >JUMP TO RECIPIE</a
-          >
-          <a class="element_btns_style" href="">RATE RECIPIE</a>
-        </div>
-        <br />
-        <br />
-        <br />
-
-        <img
-          src="/assets/images/superfood-3.webp"
-          alt="Smoothie"
-          style="width: 900px; height: 1200px; float: left"
-        />
-
-        <br />
-
-        <div>
-          <aside>
-            <div class="block_about">
-              <!-- <img
-                src="/assets/images/fresh & healthy (2).png"
-                alt="Smoothie logo"
-                style="
-                  width: 300px;
-                  height: 300px;
-                  align-items: center;
-                  padding-left: 200px;
-                "
-              /> -->
-              <div class="block_about_content">
-                <div class="block_heading">
-                  <h1 id="block_hello">
-                    HELLO AND WELCOME TO <br />DELISH SMOOTHIES
-                  </h1>
-
-                  <p id="block_p">
-                    I’m Lisa and I love healthy food with <br />fresh, simple
-                    and seasonal ingredients. <br />I’m a bestselling cookbook
-                    author, food<br />
-                    blogger, meal prep fanatic, YouTuber<br />
-                    and massive wanderluster (getting food <br />inspiration
-                    from around the world!)
-                  </p>
-                </div>
-
-                <div class="block_btn">
-                  <a href="recipies">MORE ABOUT SMOOTHIES</a>
-                </div>
-              </div>
-            </div>
-            <hr class="line_break" />
-
-            <section class="popular_section">
-              <header>
-                <div class="listing_title">
-                  <h1 id="popular_recipies">Popular Recipes</h1>
-                </div>
-              </header>
-              <div class="post_listing">
-                <article class="post_summery">
-                  <div class="post_summery_image">
-                    <a href="/pages/popular1.html" target="_blank"
-                      ><img
-                        src="/assets/images/pexels-taryn-elliott-4099237.jpg"
-                        alt="taryn-elliott"
-                        style="width: 200px; height: 200px"
-                    /></a>
-                  </div>
-                  <div class="post_summery_content">
-                    <h3 class="post_summery_title">Popular 1</h3>
-                  </div>
-                </article>
-                <article>
-                  <div class="post_summery_image"></div>
-                  <a href="/pages/popular2.html" target="_blank"
-                    ><img
-                      src="/assets/images/pexels-nicola-barts-7937002.jpg"
-                      alt="nicola-barts"
-                      style="width: 200px; height: 200px"
-                  /></a>
-
-                  <div class="post_summery_content">
-                    <h3 class="post_summery_title">Popular 2</h3>
-                  </div>
-                </article>
-
-                <article>
-                  <div class="post_summery_image"></div>
-                  <a href="/pages/popular3.html" target="_blank"
-                    ><img
-                      src="/assets/images/pexels-janetrangdoan-1564585.jpg"
-                      alt="janetrangaon"
-                      style="width: 200px; height: 200px"
-                  /></a>
-
-                  <div class="post_summery_content">
-                    <h3 class="post_summery_title">Popular 3</h3>
-                  </div>
-                </article>
-                <article>
-                  <div class="post_summery_image"></div>
-                  <a href="/pages/popular4.html" target="_blank"
-                    ><img
-                      src="/assets/images/pexels-catscoming-674557.jpg"
-                      alt="catscoming"
-                      style="width: 200px; height: 200px"
-                  /></a>
-
-                  <div class="post_summery_content">
-                    <h3 class="post_summery_title">Popular 4</h3>
-                  </div>
-                </article>
-              </div>
-            </section>
-          </aside>
-        </div>
-      </section>
-
-      <!-- ================================================About Page================================================================= -->
-
-      <br />
-      <br />
-      <section id="about">
-        <div>
-          <div class="about_heading">
-            <h2>HOW TO MAKE A GREAT SMOOTHIE</h2>
-          </div>
-
-          <aside>
-            <div class="about_content">
-              <p>
-                When it comes to making a smoothie, don’t overthink it. The best
-                ones are often made from improvising with what <br />
-                you have on hand.Toss in your slightly browned banana, sprinkle
-                in a handful of spinach that’s about to go bad, or <br />use up
-                that half can of coconut milk. Just a little bit of each can go
-                far in a delicious blended drink.
-              </p>
-
-              <p>
-                While there’s no right or wrong way to make a smoothie, here’s a
-                few tips to for making a healthy, well-rounded smoothie.
-              </p>
-              <ul>
-                <li>
-                  <b>Choose a liquid base.</b> Choose filtered water, coconut
-                  water, or any dairy-free milks (such as oat milk, almond
-                  <br />milk, hemp milk, or cashew milk) for an extra creamy
-                  smoothie. Steer clear of fruit juices most of the time
-                  though,<br />
-                  as it adds unnecessary sugar.
-                </li>
-                <br />
-                <li>
-                  <b>Start with frozen fruits.</b>To keep your smoothie chilled
-                  and creamy without getting watered down from ice, it’s best<br />
-                  to use frozen fruits, like frozen bananas. You can use
-                  store-bought frozen bags, or chop and freeze fresh fruit.
-                </li>
-                <br />
-                <li>
-                  <b>Add vegetables for a dose of greens. </b>Fresh leafy greens
-                  such as spinach or kale are an easy way to sneak in greens.
-                  <br />But you can also add in frozen zucchini or frozen
-                  cauliflower to pack in extra nutrients and fiber in these
-                  low-sugar<br />
-                  smoothies.
-                </li>
-                <br />
-                <li>
-                  <b>Consider adding healthy fats.</b>Healthy fats will help
-                  absorb all those fat-soluble vitamins and nutrients from your
-                  <br />fruits and vegetables! All you need is a dollop of
-                  almond butter, a drizzle of coconut oil, a slice of avocado or
-                  a<br />
-                  variety of seeds such as chia seeds or flax seeds.
-                </li>
-                <br />
-                <li>
-                  <b>Superfood & protein add-ins are a plus.</b>Give your
-                  smoothie an extra boost with the simplest ingredients.
-                  These<br />
-                  can range from spices such as cinnamon or turmeric, to
-                  superfoods like maca powder or goji berries. For more
-                  <br />superfood options, take a peek at my post on how to make
-                  the healthiest green smoothie.
-                </li>
-              </ul>
-            </div>
-          </aside>
-        </div>
-
-        <div>
-          <div class="about_heading" style="padding-top: 15px">
-            <h2>NUTRITIONS</h2>
-          </div>
-
-          <div class="about_content">
-            <p>
-              Calories: 129kcal, Carbohydrates: 26g, Protein: 4g, Fat: 1g,
-              Cholesterol: 1mg, Sodium: 17mg, Potassium: 522mg,<br />
-              Fiber: 2g, Sugar: 18g, Vitamin A: 970IU, Vitamin C: 97.7mg,
-              Calcium: 61mg, Iron: 0.8mg
-            </p>
-
-            <p>
-              Nutrition information is automatically calculated, so should only
-              be used as an approximation.
-            </p>
           </div>
         </div>
       </section>
 
-      <!-- ===============================================Recipies Page================================================================= -->
-      <br />
-
-      <section id="recipies">
-        <div class="about_heading" style="padding-top: 15px">
-          <h1>HEALTHY SMOOTHIES</h1>
+      <section id="recipies-section" class="recipes container">
+        <h1 class="heading">Recipies</h1>
+        <div class="recipes-content">
+          <div class="recipie-card">
+            <a
+              href="/pages/Babe Ruth Strawberry Pineapple Banana Smoothie.html"
+              target="_blank"
+              ><img
+                src="/assets/images/pexels-taryn-elliott-4099237.jpg"
+                alt="taryn-elliott"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Strawberry Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
+          <div class="recipie-card">
+            <a href="/pages/Chocolate Powerhouse Smoothie.html" target="_blank"
+              ><img
+                src="/assets/images/pexels-eva-bronzini-6261272.jpg"
+                alt="nicola-barts"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Chocolate Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
+          <div class="recipie-card">
+            <a href="/pages/Lovely Greens Smoothie.html" target="_blank"
+              ><img
+                src="/assets/images/pexels-fotios-photos-12049996.jpg"
+                alt="taryn-elliott"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Greeny Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
+          <div class="recipie-card">
+            <a href="/pages/Peachy Mango Smoothie.html" target="_blank"
+              ><img
+                src="/assets/images/pexels-ph-m-thanh-d-t-1295528-6493405.jpg"
+                alt="taryn-elliott"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Mango Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
+          <div class="recipie-card">
+            <a href="/pages/Sweet Cherry Almond Smoothie.html" target="_blank"
+              ><img
+                src="/assets/images/pexels-sehriban-karakaya-49565301-20791352.jpg"
+                alt="taryn-elliott"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Cherry Almond Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
+          <div class="recipie-card">
+            <a href="/pages/Youthful Glow Green Smoothie.html" target="_blank"
+              ><img
+                src="/assets/images/pexels-amirali-beigi-231365-868511.jpg"
+                alt="taryn-elliott"
+              />
+            </a>
+            <div class="recipes">
+              <h3>Glow Green Smoothie</h3>
+              <p>It’s the perfect summer smoothie!</p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="about_content">
+      <section id="about-section" class="about container">
+        <h1 class="heading">About Smoothies</h1>
+        <div class="about-content">
+          <h2>HOW TO MAKE A GREAT SMOOTHIE</h2>
+          <p>
+            When it comes to making a smoothie, don’t overthink it. The best
+            ones are often made from improvising with what <br />
+            you have on hand.Toss in your slightly browned banana, sprinkle in a
+            handful of spinach that’s about to go bad, or <br />use up that half
+            can of coconut milk. Just a little bit of each can go far in a
+            delicious blended drink.
+          </p>
+
+          <p>
+            While there’s no right or wrong way to make a smoothie, here’s a few
+            tips to for making a healthy, well-rounded smoothie.
+          </p>
+          <ul>
+            <li>
+              <b>Choose a liquid base.</b> Choose filtered water, coconut water,
+              or any dairy-free milks (such as oat milk, almond <br />milk, hemp
+              milk, or cashew milk) for an extra creamy smoothie. Steer clear of
+              fruit juices most of the time though,<br />
+              as it adds unnecessary sugar.
+            </li>
+            <br />
+            <li>
+              <b>Start with frozen fruits.</b>To keep your smoothie chilled and
+              creamy without getting watered down from ice, it’s best<br />
+              to use frozen fruits, like frozen bananas. You can use
+              store-bought frozen bags, or chop and freeze fresh fruit.
+            </li>
+            <br />
+            <li>
+              <b>Add vegetables for a dose of greens. </b>Fresh leafy greens
+              such as spinach or kale are an easy way to sneak in greens.
+              <br />But you can also add in frozen zucchini or frozen
+              cauliflower to pack in extra nutrients and fiber in these
+              low-sugar<br />
+              smoothies.
+            </li>
+            <br />
+            <li>
+              <b>Consider adding healthy fats.</b>Healthy fats will help absorb
+              all those fat-soluble vitamins and nutrients from your
+              <br />fruits and vegetables! All you need is a dollop of almond
+              butter, a drizzle of coconut oil, a slice of avocado or a<br />
+              variety of seeds such as chia seeds or flax seeds.
+            </li>
+            <br />
+            <li>
+              <b>Superfood & protein add-ins are a plus.</b>Give your smoothie
+              an extra boost with the simplest ingredients. These<br />
+              can range from spices such as cinnamon or turmeric, to superfoods
+              like maca powder or goji berries. For more
+              <br />superfood options, take a peek at my post on how to make the
+              healthiest green smoothie.
+            </li>
+          </ul>
+          <h2>NUTRITIONS</h2>
+          <p>
+            Calories: 129kcal, Carbohydrates: 26g, Protein: 4g, Fat: 1g,
+            Cholesterol: 1mg, Sodium: 17mg, Potassium: 522mg,<br />
+            Fiber: 2g, Sugar: 18g, Vitamin A: 970IU, Vitamin C: 97.7mg, Calcium:
+            61mg, Iron: 0.8mg
+          </p>
+
+          <p>
+            Nutrition information is automatically calculated, so should only be
+            used as an approximation.
+          </p>
+
+          <h2>HEALTHY SMOOTHIES</h2>
+
           <p>
             6 Fruits and Vegetables Healthy Smoothie Recipes that will give you
             energy all day long. on how to adopt a whole foods diet with the
@@ -300,137 +247,56 @@
             that will start your mornings off right.
           </p>
         </div>
-
-        <!-- <a href="/pages/recipies.html"> Healthy Smoothie Recipies </a> -->
-
-        <nav>
-          <div>
-            <a
-              href="/pages/Babe Ruth Strawberry Pineapple Banana Smoothie.html"
-              target="_blank"
-              ><img
-                src="/assets/images/pexels-taryn-elliott-4099237.jpg"
-                alt="taryn-elliott"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-
-            <a href="/pages/Chocolate Powerhouse Smoothie.html" target="_blank"
-              ><img
-                src="/assets/images/pexels-eva-bronzini-6261272.jpg"
-                alt="nicola-barts"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-
-            <a href="/pages/Lovely Greens Smoothie.html" target="_blank"
-              ><img
-                src="/assets/images/pexels-fotios-photos-12049996.jpg"
-                alt="janetrangaon"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-          </div>
-
-          <div>
-            <a href="/pages/Peachy Mango Smoothie.html" target="_blank"
-              ><img
-                src="/assets/images/pexels-ph-m-thanh-d-t-1295528-6493405.jpg"
-                alt="mango"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-
-            <a href="/pages/Sweet Cherry Almond Smoothie.html" target="_blank"
-              ><img
-                src="/assets/images/pexels-sehriban-karakaya-49565301-20791352.jpg"
-                alt="cherry"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-
-            <a href="/pages/Youthful Glow Green Smoothie.html" target="_blank"
-              ><img
-                src="/assets/images/pexels-amirali-beigi-231365-868511.jpg"
-                alt="taryn-elliott"
-                style="width: 250px; height: 250px; margin-right: 50px"
-              />
-            </a>
-            >
-          </div>
-        </nav>
       </section>
 
-      <!-- 
-    <h2><b>List of Healthy Superfoods</b></h2>
-
-    <ol>
-      <li><b>Kale -</b>  insanely low in calories, powerful anti-oxidant with anti-inflammatory properties, and helpful for arthritis and autoimmune diseases.</li>
-    </br>
-      <li><b>Spinach – </b>the beauty of spinach lies in how easy it is to disguise the taste. It’s mild tasting yet packed with vitamins, has anti-cancerous properties, and is one of the healthiest foods on the planet. </li>
-    </br>
-      <li><b>Blueberries –</b>have one of the highest antioxidant capacities of all fruits which helps to combat free radicals in your body.</li>
-    </br>
-      <li><b>Strawberries –</b> just one serving provides more vitamin C than an orange while being low in natural sugars.</li>
-    </br>
-      <li><b>Greek Yogurt –</b>double the protein and half the carbs as regular yogurt</li>
-    </br>
-      <li><b>Cucumber –</b>since it’s 95% water, it’s an incredible detoxifier and helps with liver and kidney function.</li>
-    </br>
-      <li><b>Lemon –</b>is one of the most important items to stock in your kitchen as it’s a highly effective cleansing agent and cuts through the bitterness of greens.</li>
-    </br>
-      <li><b>Banana –</b>an essential in smoothies as it adds creaminess, a touch of sweetness, and helps you feel full longer plus, it’s rich in potassium and fiber and gives you natural energy.</li>
-    </br>
-      <li><b>Chia + Flaxseeds – </b>rich is Omega-3 and fiber benefits.</li>
-    </br>
-      <li><b>Ginger –</b>aids in digestion and supports the immune system.</li>
-
-    </ol> -->
-
-      <br />
-
-      <!-- ===================================================Contact Us================================================= -->
-      <section id="contact">
-        <div>
-          <h1>CONTACT ME</h1>
+      <section id="contact-section" class="contact container">
+        <h1 class="heading">Leave a comment</h1>
+        <div class="contact-content">
+          <form class="recipie-form">
+            <div class="form-box">
+              <label for="name">Your name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-box">
+              <label for="email">Your email:</label>
+              <input type="text" id="email" name="email" required />
+            </div>
+            <div class="form-box">
+              <label for="message">Write your message here:</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">SUBMIT</button>
+          </form>
         </div>
-
-        <br />
-        <br />
-
-        <div>
-          <div>
-            <h2>LEAVE A COMMENT</h2>
-          </div>
-
-          <div>
-            <h4>COMMENT*</h4>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Enter your comment"
-              rows="15"
-              cols="100"
-            ></textarea>
-
-            <h4>NAME*</h4>
-            <label for="Name"> Name :</label>
-            <br />
-            <input
-              type="text"
-              placeholder="Enter your name"
-              maxlength="60"
-              required
-            />
-          </div>
-        </div>
-
-        <div></div>
       </section>
     </main>
 
     <footer>
-      <div class="footer"></div>
+      <div class="container">
+        <div class="footer-container">
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090009402395"
+              target="_blank"
+              ><img
+                src="/assets/images/facebook-circular-logo.png"
+                alt="facebook"
+            /></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100090009402395"
+              target="_blank"
+              ><img src="/assets/images/instagram (1).png" alt="instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/lakhini-voshadee/"
+              target="_blank"
+            >
+              <img src="/assets/images/linkedin (1).png" alt="linkendin" />
+            </a>
+          </div>
+          <p>Copyright© Lakhini Voshadee - All Rights Reserved.</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
