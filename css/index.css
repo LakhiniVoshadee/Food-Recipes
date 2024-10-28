@@ -67,6 +67,51 @@ header h1 span {
   text-decoration: none;
 }
 
+#burger {
+  display: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.menu-panel {
+  background-color: #333;
+  color: white;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: right 0.4s ease;
+  z-index: 200;
+}
+
+.menu-panel ul {
+  list-style: none;
+  padding: 50px 20px;
+}
+
+.menu-panel ul li {
+  margin-bottom: 20px;
+}
+
+.menu-panel ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
 .hero {
   background-color: #8db4b8;
   padding: 6rem 2rem;
@@ -104,6 +149,11 @@ header h1 span {
 }
 .home-text img {
   margin-left: 7rem;
+}
+
+.home-img img {
+  width: 600px;
+  height: 600px;
 }
 
 .recipes-content {
@@ -244,4 +294,121 @@ footer {
 .social-links img:hover {
   transition: ease 0.5s;
   transform: scale(1.2);
+}
+
+/* ================================================================================================= */
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 2rem 0;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .nav {
+    padding: 12px 0;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  .menu-panel.active {
+    right: 0;
+  }
+  .home-img img {
+    width: 408px;
+    height: 650px;
+  }
+
+  .home h1 {
+    margin-left: 1rem;
+  }
+  .home p {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .home-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .recipes-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .recipes {
+    padding: 2.5rem;
+  }
+
+  .about-content {
+    margin: 3rem;
+  }
+
+  .contact-content {
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .home-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .home-img img {
+    width: 425px;
+    height: 600px;
+  }
+
+  .recipes-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .home h1 {
+    font-size: 1.2rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .home-img img {
+    width: 375px;
+    height: 500px;
+  }
+  .social-links img {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-container p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-img img {
+    width: 320px;
+    height: 500px;
+  }
+  .social-links img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-container p {
+    font-size: 0.6rem;
+  }
 }
